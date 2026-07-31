@@ -94,19 +94,25 @@ Version         : 1.0
     // partner-slider
     $('.partner-slider').owlCarousel({
         loop: true,
-        margin: 40,
-        nav: false,
+        margin: 25,
+        nav: true,
         dots: false,
+        nav:true,
+        navText:[
+        '<i class="fa-solid fa-arrow-left-long"></i>',
+        '<i class="fa-solid fa-arrow-right-long"></i>'
+        ],
         autoplay: true,
         responsive: {
             0: {
-                items: 2
+                items: 2,
+                margin: 15,
             },
             600: {
                 items: 3
             },
             1000: {
-                items: 6
+                items: 4
             }
         }
     });
