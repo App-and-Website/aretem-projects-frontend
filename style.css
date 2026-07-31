@@ -1,0 +1,1246 @@
+
+/* 
+color main dark and below
+#40f87f; */
+
+.button_call .theme-btn {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 6px 12px 6px 0px;
+    transition: all 0.5s;
+    text-transform: capitalize;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    background: #02ad71;
+    box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+}
+.button_call .theme-btn:hover {
+    background: #018658;
+}
+.button_call .theme-btn i {
+    margin-left: 8px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background: #000;;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.hero-single .hero-content .theme-btn:hover {
+    background: #018658;
+    color: #fff;
+}
+.hero-single .hero-content .theme-btn:hover i {
+    background: #000;;
+    color: #fff;
+}
+.header_mnu_main .navbar{
+    background: #000!important;
+}
+.hero-single {
+    height: calc(100vh - 90px);
+    background: transparent;
+}
+.hero-single::before {
+     background: transparent;
+}
+
+.hero-single .hero-content .hero-title {
+    font-size: 48px;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .nav-link {
+        color: #ddd;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .navbar .nav-item .nav-link:hover {
+        color: #fff;
+    }
+    .navbar .nav-item:hover  .nav-link {
+        color: #fff;
+    }
+}
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu .dropdown-item {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 5px 0px 5px 10px;
+        color: #091F3C;
+    }
+}
+
+.call_button_mobile{
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    background: #018658;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.call_button_mobile i{
+    color: #fff;
+    font-size: 24px;
+}
+.banner_mobile{
+    display: none;
+}
+@media (max-width: 1200px) {
+    .call_button_mobile{
+    display: flex;
+    margin-left: 50px;
+    margin-right: -50px;
+}
+.header_mnu_main ul li{
+    margin-right: 12px;
+    font-size: 16px;
+}
+.hero-single .hero-content .hero-title {
+    font-size: 42px;
+} 
+}
+
+@media (max-width: 992px) {
+.call_button_mobile{
+   display: none;
+}
+.call_button_mobile2{
+    display: flex;
+    margin-right: 50px;
+}
+.call_button_mobile{
+    height: 36px;
+    width: 36px;
+}
+.call_button_mobile i{
+    font-size: 20px;
+}
+.hero-single .hero-content .hero-title {
+    font-size: 32px;
+} 
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler-icon {
+        font-size: 28px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-brand img {
+        width: 160px;
+    }
+
+}
+@media (max-width: 991px) {
+    .navbar .nav-item .nav-link:hover {
+        color: #000 !important;
+    }
+}
+@media (max-width: 768px) {
+.hero-single {
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.hero-section{
+    background-position: left!important;
+}
+.hero-single .hero-content .hero-title {
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .hero-single .hero-content p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-collapse {
+        max-height: 600px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 576px) {
+.banner_mobile{
+    display: block;
+}
+}
+
+
+
+/*==============================
+    SERVICES GRID
+==============================*/
+
+.atm-services-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:24px;
+}
+
+
+/*==============================
+    CARD
+==============================*/
+
+.atm-service-card{
+    position:relative;
+    width:calc(33.333% - 16px);
+    background:#ffffff;
+    border-radius:18px;
+    overflow:hidden;
+    border:1px solid #ececec;
+    transition:.35s;
+    box-shadow:0 8px 30px rgba(0,0,0,.05);
+}
+
+
+/*==============================
+    IMAGE
+==============================*/
+
+.atm-service-image{
+    position:relative;
+    overflow:hidden;
+    height:220px;
+}
+
+.atm-service-image a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.atm-service-image img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    transition:.6s;
+}
+
+
+/* dark overlay */
+
+.atm-service-image::after{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(to top,
+    rgba(0,0,0,.45),
+    rgba(0,0,0,.05));
+    pointer-events:none;
+}
+.hero-single .hero-content .hero-title {
+    font-weight: 500;
+}
+
+/*==============================
+    CONTENT
+==============================*/
+
+.atm-service-content{
+    padding: 20px;
+}
+
+.atm-service-content h3{
+    margin:0 0 14px;
+    font-size:24px;
+    font-weight:500;
+    line-height:1.35;
+}
+
+.atm-service-content h3 a{
+    color:#111;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.atm-service-content p{
+    margin:0 0 10px;
+    color:#666;
+    font-size:15px;
+    line-height:1.5;
+}
+
+
+/*==============================
+    BUTTON
+==============================*/
+
+.atm-service-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:15px;
+    font-weight:700;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.atm-service-btn i{
+    font-size:13px;
+}
+
+
+/*==============================
+    RESPONSIVE
+==============================*/
+
+@media (max-width:1100px){
+
+.atm-service-card{
+    width:calc(50% - 12px);
+}
+
+}
+
+@media (max-width:767px){
+
+.atm-services-section{
+    padding:80px 0;
+}
+
+.atm-services-heading h2{
+    font-size:30px;
+}
+
+.atm-services-heading p{
+    font-size:15px;
+}
+
+.atm-service-card{
+    width:100%;
+}
+
+.atm-service-image{
+    height:230px;
+}
+
+}
+
+/*=========================================
+    IMAGE ANIMATION
+=========================================*/
+
+.atm-service-card:hover .atm-service-image img{
+    transform:scale(1.08);
+}
+
+.atm-service-image img{
+    backface-visibility:hidden;
+}
+
+
+/*=========================================
+    ICON ANIMATION
+=========================================*/
+
+.atm-service-icon{
+    transition:.35s;
+}
+
+.atm-service-card:hover .atm-service-icon{
+    transform:rotate(8deg) scale(1.08);
+    box-shadow:
+    0 12px 28px rgba(2,173,113,.28);
+}
+
+
+/*=========================================
+    TITLE LINK EFFECT
+=========================================*/
+
+.atm-service-content h3 a{
+    position:relative;
+}
+.atm-service-card h3:hover a{
+    color:#017a50;
+}
+
+.atm-service-card:hover h3 a::after{
+    width:100%;
+}
+
+
+/*=========================================
+    IMAGE OVERLAY
+=========================================*/
+
+.atm-service-image::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(
+    180deg,
+    rgba(2,173,113,0),
+    rgba(2,173,113,.18));
+    opacity:0;
+    transition:.4s;
+    z-index:2;
+}
+.shadow-title {
+   -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-user-drag: none;
+    user-drag: none;
+
+    pointer-events: none; 
+}
+.atm-service-card:hover .atm-service-image::before{
+    opacity:1;
+}
+
+
+/*=========================================
+    SMOOTH TRANSITIONS
+=========================================*/
+
+.atm-service-card,
+.atm-service-card *,
+.atm-service-card::before,
+.atm-service-card::after{
+    transition:.35s;
+}
+
+
+/*=========================================
+    ACCESSIBILITY
+=========================================*/
+
+.atm-service-content h3 a:hover,
+.atm-service-btn:hover{
+    outline:none;
+    color:#02704a;
+}
+
+
+/*=========================================
+    RESPONSIVE IMPROVEMENTS
+=========================================*/
+
+@media (max-width:991px){
+
+.atm-services-grid{
+    gap:20px;
+}
+
+.atm-service-card{
+    width:calc(50% - 10px);
+}
+
+.atm-service-image{
+    height:210px;
+}
+.quote-content{
+    margin-top: 30px;
+}
+.about-area {
+    padding-top: 0!important;
+}
+}
+
+@media (max-width:767px){
+
+.atm-services-section{
+    padding:75px 0;
+}
+
+.atm-services-heading{
+    margin-bottom:35px;
+}
+
+.atm-services-heading h2{
+    font-size:30px;
+}
+
+.atm-services-heading p{
+    font-size:15px;
+}
+
+.atm-services-grid{
+    gap:18px;
+}
+
+.atm-service-card{
+    width:100%;
+    max-width:430px;
+}
+
+.atm-service-content{
+    padding:40px 22px 22px;
+}
+
+.atm-service-content h3{
+    font-size:21px;
+}
+
+.atm-service-content p{
+    font-size:14px;
+}
+
+.atm-service-image{
+    height:220px;
+}
+
+.atm-service-icon{
+    width:54px;
+    height:54px;
+    font-size:20px;
+}
+.site-title {
+    font-size: 30px!important;
+}
+.site-title-tagline {
+    font-size: 20px;
+}
+.quote-content {
+    padding: 40px 20px;
+}
+}
+
+@media (max-width:480px){
+
+.atm-services-section{
+    padding:65px 0;
+}
+
+.atm-services-heading h2{
+    font-size:26px;
+}
+
+.atm-services-heading p{
+    line-height:1.7;
+}
+
+.atm-service-image{
+    height:200px;
+}
+
+.atm-service-content{
+    padding:38px 20px 20px;
+}
+
+.atm-service-content h3{
+    font-size:20px;
+}
+
+.atm-service-btn{
+    font-size:14px;
+}
+
+}
+
+
+.about-right {
+    padding-left: 0px;
+}
+.site-title {
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 42px;
+    color: #091F3C;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.quote-content p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+.quote-content{
+    border-radius: 5px;
+}
+.site-heading p{
+    margin-top: 10px;
+}
+.site-heading {
+    margin-bottom: 30px;
+}
+
+
+
+/*====================================================
+    PROCESS SECTION
+====================================================*/
+
+.aretem-process-section{
+    position:relative;
+    padding:110px 0;
+    background:#0b0b0b;
+    overflow:hidden;
+}
+
+.aretem-process-container{
+    width:92%;
+    max-width:1320px;
+    margin:0 auto;
+    position:relative;
+    z-index:2;
+}
+.aretem-process-section .site-heading p{
+    color: #ddd;
+}
+
+/*====================================================
+    BACKGROUND TITLE
+====================================================*/
+
+.aretem-process-bg-text{
+    position:absolute;
+    top:70px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:170px;
+    font-weight:900;
+    letter-spacing:15px;
+    color:rgba(255,255,255,.025);
+    white-space:nowrap;
+    z-index:0;
+    pointer-events:none;
+    user-select:none;
+}
+
+
+/*====================================================
+    PROCESS WRAPPER
+====================================================*/
+
+.aretem-process-wrapper{
+    display:flex;
+    justify-content:space-between;
+    gap:28px;
+    position:relative;
+}
+
+
+/*====================================================
+    CONNECTING LINE
+====================================================*/
+
+.aretem-process-line{
+    position:absolute;
+    top:52px;
+    left:12%;
+    width:76%;
+    height:2px;
+    background:rgba(2,173,113,.25);
+    z-index:0;
+}
+
+
+/*====================================================
+    PROCESS CARD
+====================================================*/
+
+.aretem-process-card{
+    position:relative;
+    flex:1;
+    background:#131313;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:22px;
+    padding:30px 20px 25px;
+    text-align:center;
+    transition:.35s;
+    z-index:2;
+}
+
+
+/*====================================================
+    NUMBER
+====================================================*/
+
+.aretem-process-number{
+    position:absolute;
+    top:18px;
+    right:20px;
+    color:rgba(255,255,255,.08);
+    font-size:42px;
+    font-weight:800;
+    line-height:1;
+}
+
+
+/*====================================================
+    ICON
+====================================================*/
+
+.aretem-process-icon{
+    width:75px;
+    height:75px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#02ad71;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:30px;
+    border:8px solid #0b0b0b;
+    box-shadow:0 0 0 6px rgba(2,173,113,.15);
+    position:relative;
+}
+
+
+/*====================================================
+    CONTENT
+====================================================*/
+
+.aretem-process-content h3{
+    margin:0 0 16px;
+    color:#fff;
+    font-size:20px;
+    font-weight:500;
+}
+
+.aretem-process-content p{
+    margin:0;
+    color:#b9b9b9;
+    font-size:15px;
+    line-height:24px;
+}
+
+
+/*====================================================
+    GREEN TOP BAR
+====================================================*/
+
+.aretem-process-card::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:4px;
+    background:#02ad71;
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:.4s;
+}
+
+
+/*====================================================
+    TABLET
+====================================================*/
+
+@media(max-width:991px){
+
+.aretem-process-wrapper{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.aretem-process-card{
+    flex:none;
+    width:calc(50% - 16px);
+}
+
+.aretem-process-line{
+    display:none;
+}
+
+.aretem-process-bg-text{
+    font-size:110px;
+}
+
+.aretem-process-heading h2{
+    font-size:34px;
+}
+
+}
+
+
+/*====================================================
+    MOBILE
+====================================================*/
+
+@media(max-width:767px){
+
+.aretem-process-section{
+    padding:80px 0;
+}
+
+.aretem-process-wrapper{
+    gap:22px;
+}
+
+.aretem-process-card{
+    width:100%;
+    padding:65px 24px 30px;
+}
+
+.aretem-process-heading{
+    margin-bottom:45px;
+}
+
+.aretem-process-heading h2{
+    font-size:30px;
+}
+
+.aretem-process-heading p{
+    font-size:15px;
+}
+
+.aretem-process-icon{
+    width:76px;
+    height:76px;
+    font-size:28px;
+}
+
+.aretem-process-content h3{
+    font-size:22px;
+}
+
+.aretem-process-bg-text{
+    font-size:70px;
+    top:90px;
+    letter-spacing:6px;
+}
+
+}
+
+/*====================================================
+    CARD HOVER
+====================================================*/
+
+.aretem-process-card:hover{
+    transform:translateY(-12px);
+    border-color:rgba(2,173,113,.35);
+    box-shadow:
+    0 20px 45px rgba(0,0,0,.35),
+    0 0 35px rgba(2,173,113,.10);
+}
+
+.aretem-process-card:hover::before{
+    transform:scaleX(1);
+}
+
+
+/*====================================================
+    ICON HOVER
+====================================================*/
+
+.aretem-process-icon{
+    transition:.35s;
+}
+
+.aretem-process-card:hover .aretem-process-icon{
+    transform:rotate(8deg) scale(1.08);
+    box-shadow:
+    0 0 0 8px rgba(2,173,113,.12),
+    0 10px 30px rgba(2,173,113,.35);
+}
+
+
+/*====================================================
+    TITLE
+====================================================*/
+
+.aretem-process-content h3{
+    transition:.3s;
+}
+
+.aretem-process-card:hover h3{
+    color:#02ad71;
+}
+
+
+/*====================================================
+    PARAGRAPH
+====================================================*/
+
+.aretem-process-content p{
+    transition:.3s;
+}
+
+.aretem-process-card:hover p{
+    color:#dddddd;
+}
+
+
+/*====================================================
+    NUMBER
+====================================================*/
+
+.aretem-process-number{
+    transition:.35s;
+}
+
+.aretem-process-card:hover .aretem-process-number{
+    color:rgba(2,173,113,.18);
+    transform:scale(1.08);
+}
+
+
+/*====================================================
+    SUBTLE SHINE EFFECT
+====================================================*/
+
+.aretem-process-card{
+    overflow:hidden;
+}
+
+.aretem-process-card::after{
+
+    content:"";
+    position:absolute;
+
+    left:-130%;
+    top:0;
+
+    width:80%;
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.08),
+        transparent
+    );
+
+    transform:skewX(-25deg);
+    transition:.8s;
+
+}
+
+.aretem-process-card:hover::after{
+    left:160%;
+}
+
+
+/*====================================================
+    CONNECTING LINE GLOW
+====================================================*/
+
+.aretem-process-line{
+
+    background:linear-gradient(
+        90deg,
+        rgba(2,173,113,.15),
+        #02ad71,
+        rgba(2,173,113,.15)
+    );
+
+    box-shadow:0 0 12px rgba(2,173,113,.35);
+
+}
+
+
+/*====================================================
+    FLOATING ANIMATION
+====================================================*/
+
+@keyframes aretemFloat{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-8px);
+}
+
+100%{
+transform:translateY(0);
+}
+
+}
+
+.aretem-process-icon{
+
+animation:aretemFloat 4s ease-in-out infinite;
+
+}
+
+.aretem-process-card:nth-child(2) .aretem-process-icon{
+
+animation-delay:.3s;
+
+}
+
+.aretem-process-card:nth-child(3) .aretem-process-icon{
+
+animation-delay:.6s;
+
+}
+
+.aretem-process-card:nth-child(4) .aretem-process-icon{
+
+animation-delay:.9s;
+
+}
+
+
+/*====================================================
+    FADE IN
+====================================================*/
+
+@keyframes aretemFade{
+
+from{
+
+opacity:0;
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+.aretem-process-card{
+
+animation:aretemFade .8s ease forwards;
+
+}
+
+.aretem-process-card:nth-child(2){
+
+animation-delay:.15s;
+
+}
+
+.aretem-process-card:nth-child(3){
+
+animation-delay:.3s;
+
+}
+
+.aretem-process-card:nth-child(4){
+
+animation-delay:.45s;
+
+}
+
+.aretem-process-card:nth-child(5){
+
+animation-delay:.6s;
+
+}
+
+
+/*====================================================
+    STAGGERED LAYOUT
+====================================================*/
+
+@media(min-width:992px){
+
+.aretem-process-card:nth-child(even){
+
+margin-top:55px;
+
+}
+
+}
+
+
+/*====================================================
+    RESPONSIVE
+====================================================*/
+
+@media(max-width:991px){
+
+.aretem-process-card{
+
+margin-top:0 !important;
+
+}
+
+.aretem-process-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+}
+
+
+@media(max-width:767px){
+
+.aretem-process-icon{
+
+animation:none;
+
+}
+
+.aretem-process-card{
+
+animation:none;
+
+}
+
+.aretem-process-card:hover{
+
+transform:translateY(-6px);
+
+}
+
+.aretem-process-card::after{
+
+display:none;
+
+}
+
+.aretem-process-heading{
+
+margin-bottom:40px;
+
+}
+.sign_image {
+    margin-top: 20px;
+}
+}
+
+
+.feature-content h4 {
+    font-size: 20px;
+}
+.feature-content p{
+    font-size: 15px;
+    line-height: 24px;
+}
+.feature-item {
+    padding: 25px 18px;
+}
+.feature-icon {
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.feature-icon-1 {
+    background: #02ad71;
+}
+.feature-icon-2 {
+    background: #02ad71;
+}
+.feature-icon-3 {
+    background: #02ad71;
+}
+.feature-icon-4 {
+    background: #02ad71;
+}
+
+
+.choose-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.choose-list li {
+    margin: 0;
+    padding-left: 30px;
+    color: #444;
+}
+.choose-list li:before {
+    width: 22px;
+    height: 22px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #02ad71;
+    top: 5px!important;
+}
+.sign_image img{
+    border: 2px solid #fff;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.cta-area .theme-btn {
+    background: #000;
+}
+.faq_image {
+    max-width: 575px;
+}
+.faq_image img{
+   border: 2px solid #fff;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   border-radius: 5px;
+   margin-top: 10px;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.accordion-button {
+    font-weight: 500;
+    font-size: 18px;
+    padding:10px 10px 6px 10px;
+}
+.faq-area .accordion-item i {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+}
+.faq-area .accordion-item {
+    margin-bottom: 16px;
+}
+.accordion-body{
+    font-size: 15px;
+    line-height: 24px;
+}
+.faq-area .accordion-item span {
+    margin-right: 0;
+}
+.blog-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.blog-btn {
+    margin-top: 10px;
+    padding: 2px 20px;
+}
+.blog-item-img img {
+   height: 240px;
+   width: 100%;
+   object-fit: cover;
+}
+
+
+.footer_logo{
+    background: #000;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.footer_logo img{
+    margin-bottom: 0;
+}
+.footer-contact li:nth-child(1) i {
+    background: #02ad71;
+}
+.footer-contact li:nth-child(2) i {
+    background: #02ad71;
+}
+.footer-contact li:nth-child(3) i {
+    background: #02ad71;
+}
+.footer-contact li:nth-child(4) i {
+    background: #02ad71;
+}
