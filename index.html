@@ -61,7 +61,7 @@
                         <div class="call_button_mobile call_button_mobile2"><a href="tel:+611236547898"><i class="fa-sharp-duotone fa-regular fa-phone-volume"></i></a></div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"><i class="far fa-stream"></i></span>
+                            <span class="navbar-toggler-icon"> <i id="menuIcon" class="far fa-stream"></i></span>
                         </button>
                     </div>
                     <div class="collapse navbar-collapse" id="main_nav">
@@ -804,6 +804,21 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
 
+
+    <script>
+        const nav = document.getElementById('main_nav');
+        const icon = document.getElementById('menuIcon');
+        
+        nav.addEventListener('shown.bs.collapse', function () {
+            icon.classList.remove('fa-stream');
+            icon.classList.add('fa-times');
+        });
+        
+        nav.addEventListener('hidden.bs.collapse', function () {
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-stream');
+        });
+    </script>
 </body>
 
 </html>
