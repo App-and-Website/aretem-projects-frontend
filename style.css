@@ -1366,4 +1366,349 @@ margin-bottom:40px;
 }
 
 
+.aboutpageimage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+
+
+.ap-mission-section{
+    padding:60px 0;
+    background:#fff;
+}
+
+.ap-mission-title{
+    text-align:center;
+    max-width:760px;
+    margin:0 auto 60px;
+}
+
+.ap-mission-title span{
+    display:inline-block;
+    color:#02ad71;
+    font-size:18px;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.ap-mission-title h2{
+    font-size:42px;
+    font-weight:700;
+    color:#0f2341;
+    margin-bottom:18px;
+}
+
+.ap-mission-title p{
+    font-size:17px;
+    color:#666;
+    line-height:30px;
+    margin:0;
+}
+
+.ap-mission-card{
+    background:#fff;
+    border:1px solid #e8e8e8;
+    border-radius:15px;
+    padding:45px;
+    height:100%;
+    transition:.35s;
+}
+
+.ap-mission-card:hover{
+    transform:translateY(-8px);
+    border-color:#02ad71;
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+}
+
+.ap-mission-icon{
+    width:78px;
+    height:78px;
+    background:#02ad71;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+.ap-mission-card h3{
+    font-size:30px;
+    color:#0f2341;
+    margin-bottom:18px;
+    font-weight:700;
+}
+
+.ap-mission-card p{
+    color:#666;
+    line-height:31px;
+    margin:0;
+}
+
+.ap-core-values{
+    margin-top:50px;
+}
+
+.ap-core-title{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.ap-core-title h3{
+    color:#0f2341;
+    font-size:38px;
+    font-weight:500;
+    margin-bottom:12px;
+}
+
+.ap-core-title p{
+    color:#666;
+    margin:0;
+}
+
+.ap-value-box{
+    background:#fff;
+    border:1px solid #ebebeb;
+    border-radius:14px;
+    text-align:center;
+    padding:40px 20px;
+    transition:.35s;
+    height:100%;
+}
+
+.ap-value-box:hover{
+    background:#02ad71;
+    border-color:#02ad71;
+    transform:translateY(-8px);
+}
+
+.ap-value-icon{
+    width:72px;
+    height:72px;
+    border-radius:50%;
+    background:#eefaf5;
+    color:#02ad71;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    margin:0 auto 25px;
+    transition:.35s;
+}
+
+.ap-value-box:hover .ap-value-icon{
+    background:#fff;
+}
+
+.ap-value-box h4{
+    font-size:24px;
+    font-weight:700;
+    color:#0f2341;
+    margin-bottom:15px;
+    transition:.35s;
+}
+
+.ap-value-box p{
+    color:#666;
+    line-height:28px;
+    margin:0;
+    transition:.35s;
+}
+
+.ap-value-box:hover h4,
+.ap-value-box:hover p{
+    color:#fff;
+}
+
+@media(max-width:991px){
+
+    .ap-mission-section{
+        padding:80px 0;
+    }
+
+    .ap-mission-card{
+        margin-bottom:30px;
+        padding:35px;
+    }
+
+    .ap-core-values{
+        margin-top:60px;
+    }
+
+    .ap-mission-title h2{
+        font-size:34px;
+    }
+
+    .ap-core-title h3{
+        font-size:32px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .ap-mission-section{
+        padding:70px 0;
+    }
+
+    .ap-mission-title h2{
+        font-size:28px;
+    }
+
+    .ap-core-title h3{
+        font-size:27px;
+    }
+
+    .ap-mission-card{
+        padding:28px;
+    }
+
+    .ap-mission-card h3{
+        font-size:25px;
+    }
+
+    .ap-value-box{
+        padding:30px 20px;
+    }
+
+}
+
+
+
+.ap-contact-cta{
+    padding:60px 0;
+    background:#fff;
+}
+
+.ap-contact-content{
+    padding-right:50px;
+}
+
+.ap-contact-subtitle{
+    display:inline-block;
+    color:#02ad71;
+    font-size:18px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.ap-contact-content h2{
+    font-size:44px;
+    font-weight:500;
+    color:#0f2341;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.ap-contact-content p{
+    color:#666;
+    font-size:16px;
+    line-height:30px;
+    margin-bottom:35px;
+}
+
+.ap-contact-phone{
+    display:flex;
+    align-items:center;
+    margin-bottom:35px;
+}
+
+.ap-contact-icon{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#02ad71;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:24px;
+    margin-right:18px;
+    flex-shrink:0;
+}
+
+.ap-contact-phone span{
+    display:block;
+    color:#666;
+    font-size:15px;
+    margin-bottom:4px;
+}
+
+.ap-contact-phone h4{
+    margin:0;
+    font-size:24px;
+    font-weight:700;
+}
+
+.ap-contact-phone h4 a{
+    color:#0f2341;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.ap-contact-phone h4 a:hover{
+    color:#02ad71;
+}
+
+.ap-contact-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:16px 34px;
+    background:#02ad71;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.ap-contact-btn:hover{
+    background:#0f2341;
+    color:#fff;
+}
+
+
+@media(max-width:991px){
+
+    .ap-contact-content{
+        padding-right:0;
+        margin-bottom:50px;
+    }
+
+    .ap-contact-content h2{
+        font-size:36px;
+    }
+
+    .ap-contact-form-box{
+        min-height:450px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .ap-contact-cta{
+        padding:70px 0;
+    }
+
+    .ap-contact-content h2{
+        font-size:30px;
+    }
+
+    .ap-contact-phone h4{
+        font-size:20px;
+    }
+
+    .ap-contact-form-box{
+        padding:25px;
+        min-height:380px;
+    }
+
+}
 
