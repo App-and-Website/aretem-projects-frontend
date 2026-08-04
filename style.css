@@ -1712,3 +1712,10 @@ margin-bottom:40px;
 
 }
 
+.contact-info:last-child{
+    margin-bottom: 0;
+}
+
+.contact-content {
+    margin-bottom: 0px;
+}
